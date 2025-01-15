@@ -1,0 +1,421 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: neue;
+    src: url(../fontes/HelveticaNeueMedium.ttf), format('truetype');
+
+}
+
+header {
+
+    width: 100%;
+    display: flex;
+
+}
+
+header>nav>a {
+    margin: 0px 15px;
+    color: grey;
+
+
+}
+
+header>nav {
+    margin: 20px 86px 20px 0px;
+    justify-content: end;
+    display: flex;
+    width: 100%;
+}
+
+hr {
+    border: 1px blue solid;
+    border-bottom: 0px;
+    background-color: blue;
+    color: blue;
+    width: 100%;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    color: rgb(56, 56, 56);
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*    body {
+
+    width: 100%;
+    font-size: 15px;    color: rgb(56, 56, 56);
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+h3 {
+    margin: 38px 10px 30px 10px;
+    font-weight: lighter;
+    font-size: 25px;
+    text-align: center;
+}
+
+h4 {
+    margin-top: 10px;
+}
+
+h5 {
+    font-size: 19px;
+    font-weight: lighter;
+}
+
+h6 {
+    font-weight: lighter;
+    margin: 30px;
+    text-align: center;
+    font-size: 23px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+    accent-color: grey;
+}
+
+a {
+    text-decoration: none;
+    color: #0004ffc7;
+}
+
+footer {
+    text-align: center;
+    padding: 13px 0px 15px 0px;
+    background-color: #3054bf;
+}
+
+footer>section>a {
+    padding: 0px 8px;
+    color: white;
+}
+
+footer>p {
+    font-size: 12px;
+    padding: 12px 0px 0px 0px;
+    color: white;
+
+}
+
+/* \/\/\/CAIXA sobre o objetivo do site\/\/\/ */
+.da1 {
+    box-shadow: 0px 0px 50px 9px #0093ff;
+    position: fixed;
+    top: 72%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border: 3px solid #00000000;
+    height: 20vh;
+    width: 37vw;
+    border-radius: 18px;
+}
+
+.da2 {
+    position: fixed;
+    top: 19%;
+    left: 50%;
+    transform: translate(-50%, -21%);
+    padding: 20px;
+    box-shadow: inset 0px 4px 3px black;
+    background-color: #000000c2;
+    border: 3px solid #0093ff;
+    height: 21vh;
+    width: 37vw;
+    border-radius: 18px;
+}
+
+.da2>p {
+    text-shadow: 2px 2px 3px black;
+    color: #ffffff;
+    font-size: 1.5vw;
+}
+
+.da2>p>a {
+    color: #0093ff;
+}
+
+@media (max-width:600px) {
+    .da1 {
+        top: 86%;
+        left: 51%;
+        transform: translate(-51%, -50%);
+        height: 48px;
+        width: 310px;
+    }
+
+    .da2 {
+        top: 86%;
+        left: 51%;
+        transform: translate(-51%, -83%);
+        height: 52px;
+        width: 310px;
+    }
+
+    .da2>p {
+        font-size: 12px;
+        margin-top: -10px;
+    }
+}
+
+/* /\/\/\CAIXA sobre o objetivo do site/\/\/\ */
+
+.margh3 {
+    margin: 0px;
+}
+
+.pred {
+
+    margin: 12px 0px;
+    text-align: center;
+    color: rgba(158, 0, 0, 0.808);
+}
+
+.botao {
+    padding: 3px;
+    font-size: 18px;
+    margin: auto;
+    color: white;
+    border-radius: 5px;
+    background-color: #7890d5;
+    width: 150px;
+    text-align: center;
+    display: block;
+    border: 10px solid #7890d5;
+    justify-content: center;
+
+}
+
+.pcenter {
+    margin: 15px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.flexb {
+    margin: 0px 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+}
+
+.flexi {
+    display: inline-block;
+
+}
+
+.flexi2 {
+    margin-right: 168px;
+    display: inline-block;
+
+}
+
+
+.flexb2 {
+    margin: auto;
+    justify-content: center;
+    max-width: 1280px;
+    padding: 30px 50px 30px 58px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.flexi3 {
+    margin-right: 18px;
+    width: 250px;
+    flex-wrap: nowrap;
+    display: block;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+
+
+.radios {
+    width: 100%;
+    margin-top: 11px;
+    border-radius: 7px;
+}
+
+.imgwidth {
+
+    width: 70%;
+}
+
+.imgwidth2 {
+    width: 90%;
+    margin: 0px 0px 0px 50px;
+}
+
+.h5ali {
+    margin-top: 15px;
+}
+
+.imgt {
+    max-width: 16px;
+    margin-right: 5px;
+}
+
+.imgheader {
+    margin-left: 87px;
+    height: 58px;
+}
+
+
+
+.list {
+    list-style-type: none;
+    margin: 10px;
+}
+
+.list2 {
+
+    font-size: 5px;
+    max-width: 341px;
+    display: block;
+}
+
+
+.check {
+    color: green;
+}
+
+.container1 {
+    justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 65px;
+    gap: 50px;
+}
+
+.divd {
+    margin-left: 201px;
+    margin-right: -177px;
+}
+
+.divalign {
+    margin-right: 50px;
+    display: block;
+    max-width: 750px;
+}
+
+.textt {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.textt2 {
+    margin-top: 12px;
+}
+
+
+
+@media (max-width: 640px) {
+    .flexb2 {
+        gap: 0;
+        justify-content: initial;
+        margin: 0;
+        padding: 0;
+    }
+
+    .flexi3 {
+        font-weight: lighter;
+        text-align: center;
+        gap: 0;
+        max-width: 100%;
+        font-size: 29px;
+        justify-content: initial;
+        margin: 0;
+        padding: 0;
+    }
+
+    .flexi2 {
+        margin: 0;
+    }
+}
+
+@media (max-width: 1600px) {
+    .list2 ul li {
+        font-size: 20px;
+
+    }
+}
+
+@media (max-width: 1400px) {
+    .list2 ul li {
+        font-size: 14px;
+    }
+
+    .list2 ul li {
+
+        margin-left: 50px;
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .list2 ul li {
+
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .divd {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 800px) {
+    .container1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        text-align: left;
+
+    }
+
+    .list2 ul li {
+
+        margin-left: 50px;
+        font-size: 1.4rem !important;
+    }
+
+
+}
