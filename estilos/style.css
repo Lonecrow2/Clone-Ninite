@@ -33,6 +33,10 @@ header>nav {
     width: 100%;
 }
 
+main{
+    padding: 0px 15px 0px 15px;
+}
+
 hr {
     border: 1px blue solid;
     border-bottom: 0px;
@@ -169,30 +173,13 @@ footer>p {
     color: #0093ff;
 }
 
-@media (max-width:600px) {
-    .da1 {
-        top: 86%;
-        left: 51%;
-        transform: translate(-51%, -50%);
-        height: 48px;
-        width: 310px;
-    }
 
-    .da2 {
-        top: 86%;
-        left: 51%;
-        transform: translate(-51%, -83%);
-        height: 52px;
-        width: 310px;
-    }
-
-    .da2>p {
-        font-size: 12px;
-        margin-top: -10px;
-    }
-}
 
 /* /\/\/\CAIXA sobre o objetivo do site/\/\/\ */
+
+.att-horario{
+    font-size: 12px;
+}
 
 .margh3 {
     margin: 0px;
@@ -350,30 +337,7 @@ footer>p {
 
 
 
-@media (max-width: 640px) {
-    .flexb2 {
-        
-        gap: 0;
-        justify-content: initial;
-        margin: 0;
-        padding: 0;
-    }
 
-    .flexi3 {
-        font-weight: lighter;
-        text-align: center;
-        gap: 0;
-        max-width: 100%;
-        font-size: 15px;
-        justify-content: initial;
-        margin: 0;
-        padding: 0;
-    }
-
-    .flexi2 {
-        margin: 0;
-    }
-}
 
 @media (max-width: 1600px) {
     .list2 ul li {
@@ -394,6 +358,51 @@ footer>p {
     }
 }
 
+@media (max-width: 640px) {
+
+    .da1 {
+        top: 86%;
+        left: 51%;
+        transform: translate(-51%, -50%);
+        height: 48px;
+        width: 310px;
+    }
+
+    .da2 {
+        top: 86%;
+        left: 51%;
+        transform: translate(-51%, -83%);
+        height: 52px;
+        width: 310px;
+    }
+
+    .da2>p {
+        font-size: 12px;
+        margin-top: -10px;
+    }
+    .flexb2 {
+        
+        gap: 0;
+        justify-content: initial;
+        margin: 0;
+        padding: 0;
+    }
+
+    .flexi3 {
+        font-weight: lighter;
+        gap: 0;
+        max-width: 100%;
+        font-size: 15px;
+        justify-content: initial;
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+    }
+
+    .flexi2 {
+        margin: 0;
+    }
+}
 
 @media (min-width: 500px) and (max-width: 800px) {
 
@@ -409,22 +418,30 @@ footer>p {
 
     }
 
+    .imgwidth {
+        width: 100vw;
+    }
 
 
 }
 
 @media (max-width: 499px) { 
-    .flexi3{
-        font-size: 15px;
+
+    .container1{
+        flex-direction: column;
     }
 
+    main{
+        padding: 0px 15px 0px 15px;
+    }
+  
     .imgwidth {
-        width: 10%;
+        width: 94vw;
     }
 
     .divd {
-        margin-left: 201px;
-        margin-right: -177px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     
 }
