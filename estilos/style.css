@@ -352,6 +352,7 @@ footer>p {
 
 @media (max-width: 640px) {
     .flexb2 {
+        
         gap: 0;
         justify-content: initial;
         margin: 0;
@@ -363,7 +364,7 @@ footer>p {
         text-align: center;
         gap: 0;
         max-width: 100%;
-        font-size: 29px;
+        font-size: 15px;
         justify-content: initial;
         margin: 0;
         padding: 0;
@@ -394,21 +395,12 @@ footer>p {
 }
 
 
-@media (max-width: 1200px) {
-    .list2 ul li {
+@media (min-width: 500px) and (max-width: 800px) {
 
-        font-size: 1.3rem;
-    }
-}
-
-@media (max-width: 800px) {
     .divd {
         margin-left: 0px;
         margin-right: 0px;
     }
-}
-
-@media (max-width: 800px) {
     .container1 {
         display: flex;
         flex-wrap: wrap;
@@ -417,11 +409,22 @@ footer>p {
 
     }
 
-    .list2 ul li {
 
-        margin-left: 50px;
-        font-size: 1.4rem !important;
+
+}
+
+@media (max-width: 499px) { 
+    .flexi3{
+        font-size: 15px;
     }
 
+    .imgwidth {
+        width: 10%;
+    }
 
+    .divd {
+        margin-left: 201px;
+        margin-right: -177px;
+    }
+    
 }
