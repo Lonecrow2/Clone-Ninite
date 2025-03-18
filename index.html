@@ -774,9 +774,14 @@ Este site é um clone do site original Ninite, criado exclusivamente para fins d
                 </section>
 
                 <p>© Seguro por Fictício</p>
-
-
         </footer>
+        <script>
+               let confirmar = window.confirm(`Você está visitando um site clone do site Ninite. Se você está ciente de que este site não possui funcionalidades e que é apenas para fins de estudo e aprendizado, clique em OK.`)
+               if(!confirmar){
+                document.body.innerHTML = "Caso queira visualizar, atualize a página e clique em OK, confirmando estar ciente de que a página é apenas para fins de estudo e aprendizado"
+               }
+
+        </script>
 </body>
 
 </html>
